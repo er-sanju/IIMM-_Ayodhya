@@ -1,0 +1,96 @@
+.text-justify {
+  text-align: justify;
+}
+
+.line {
+  background-color: red;
+  height: 3px;
+  width: 60px;
+}
+
+.A li {
+  margin-top: 18px;
+  list-style-type: none;
+}
+
+.A li a {
+  color: white;
+}
+
+.A li a:hover {
+  color: red;
+}
+
+.B li {
+  margin-top: 18px;
+  list-style-type: none;
+  display: inline;
+  padding: 15px;
+}
+
+.B li a {
+  color: white;
+}
+
+.B li a:hover {
+  color: red;
+}
+
+#contact {
+  height: 350px;
+  background-image: url('../images/co.jpeg');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+#contact .col-sm-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(18, 18, 18, 0.8);
+
+}
+#mcontact
+{
+  background-image:url('../images/mco.jpg');
+  height:600px;
+  background-size:cover;
+}
+#rcontact {
+  height: 800px;
+  background-image: url('../images/rb.jpeg');
+  background-size:cover;
+}
+#blur
+{
+height:700px;
+width:800px;
+backdrop-filter:blur(3px);
+background:rgba(255,255,255,0.2);
+margin-left:50px;
+margin-top:15px;
+border:1px solid blue;
+border-radius:20px;
+box-shadow:7px 7px 15px black;
+}
+.newscard
+{
+transition:0.5em ease;
+}
+.newscard:hover
+{
+transform:translateY(-20px);
+}
+.zoom div
+{
+overflow:hidden;
+border-radius:5px 5px 0 0;
+}
+.zoom div img
+{
+  transition:0.5 ease;
+}
+.zoom:hover img
+{
+  transform:scale(1.2);
+}
